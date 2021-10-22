@@ -1,0 +1,25 @@
+/*
+ Theme Name:   Storefront Child
+ Theme URI:    https://ljholiday.com/storefront-child
+ Description:  Storefront Child Theme
+ Author:       Lonn Holiday
+ Author URI:   http://lonnatic.com
+ Template:     storefront
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         storefront
+ Text Domain:  storefront-child
+*/
+
+
+
+
+
+
+/*Make the shop pages full width*/
+body.woocommerce #primary {
+	float: none;
+	width: 100%;
+}
+
