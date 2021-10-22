@@ -1,0 +1,19 @@
+.printful-toolbar .printful-toolbar-issues {
+    background-color: #d54e21;
+    display: inline-block;
+    padding: 0 5px !important;
+    border-radius: 10px !important;
+    line-height: 16px !important;
+    font-size: 11px !important;
+    color: #fff !important;
+}
+.printful-toolbar:hover .printful-toolbar-issues,
+.printful-toolbar:active .printful-toolbar-issues,
+.printful-toolbar.hover .printful-toolbar-issues
+{
+    color: #fff !important;
+}
+
+#adminmenu .toplevel_page_printful-dashboard  img {
+    width: 28px;
+}

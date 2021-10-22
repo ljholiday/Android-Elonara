@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: client/blocks/credit-card/index.js:42
+msgid "Credit / Debit Card"
+msgstr ""
+
+#: client/blocks/credit-card/index.js:58
+msgid "Stripe Credit Card payment method"
+msgstr ""
+
+#: client/blocks/payment-request/custom-button.js:15
+msgid "Buy now"
+msgstr ""
+
+#: client/settings/payment-request-section/index.js:109
+msgid "Show express checkouts on"
+msgstr ""
+
+#: client/settings/payment-request-section/index.js:127
+msgid "Checkout"
+msgstr ""
+
+#: client/settings/payment-request-section/index.js:145
+msgid "Product page"
+msgstr ""
+
+#: client/settings/payment-request-section/index.js:159
+msgid "Cart"
+msgstr ""
+
+#: client/settings/payment-request-section/index.js:171
+msgid "Customize appearance"
+msgstr ""
+
+#: client/settings/payment-request-section/index.js:68
+msgid "Enable express checkouts"
+msgstr ""
+
+#: client/settings/payment-request-section/index.js:74
+msgid ""
+"By enabling this feature, you agree to {{stripeLink}}Stripe{{/stripeLink}}, "
+"{{appleLink}}Apple{{/appleLink}}, and {{googleLink}}Google{{/googleLink}}'s "
+"terms of use."
+msgstr ""
+
+#: client/settings/save-settings-section/index.js:25
+msgid "Save changes"
+msgstr ""

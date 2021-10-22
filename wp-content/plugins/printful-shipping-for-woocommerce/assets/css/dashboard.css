@@ -1,0 +1,181 @@
+.printful-connect {
+    position: relative;
+    height: 100%;
+}
+
+.printful-connect-inner {
+    max-width: 600px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    position: relative;
+}
+.printful-connect .connect-image {
+    max-width: 100%;
+}
+.printful-connect h1 {
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+.printful-connect .connect-description {
+    margin: 20px 0 30px 0;
+}
+
+/*noinspection CssUnusedSymbol*/
+.printful-connect .printful-connect-button {
+    height: 53px;
+    line-height: 53px;
+    padding: 0 40px;
+    font-size: 18px;
+}
+
+.printful-stats {
+    position: relative;
+    margin: 20px 0 50px 0;
+    background-color: #fff;
+    padding: 30px 20px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    border-left: #0073aa 4px solid;
+}
+.printful-stats .printful-stats-item {
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 0 8px;
+}
+
+.printful-stats .printful-stats-item h4 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    line-height: 26px;
+}
+.printful-stats .printful-stats-item h4 .dashicons {
+    font-size: 26px;
+    width: 26px;
+    height: 26px;
+}
+
+/*noinspection ALL*/
+.printful-stats .printful-stats-item h4 .dashicons-arrow-up-alt {
+    color: green;
+}
+.printful-stats .printful-stats-item h4 .dashicons-arrow-down-alt {
+    color: #d54e21;
+}
+
+@media (min-width: 768px) {
+    .printful-stats .printful-stats-item {
+        width: 24%;
+        margin-bottom: 0;
+        padding: 0 25px;
+    }
+    .printful-stats .printful-stats-item h4 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .printful-stats .printful-stats-item h4 .dashicons {
+        padding-top: 4px;
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.printful-latest-orders {
+    display: table;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.printful-latest-orders .row {
+    display: table-row;
+}
+.printful-latest-orders .row .cell {
+    display: table-cell;
+}
+
+.wrap h2.nav-tab-wrapper.printful-tabs {
+    margin-bottom: 15px;
+}
+
+
+.printful-quick-links {
+    position: relative;
+    margin-bottom: 30px;
+}
+.printful-quick-links .printful-quick-links-item {
+    width: 120px;
+    background: #fff;
+    border: solid 1px #e1e1e1;
+    float: left;
+    padding: 20px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.printful-quick-links .printful-quick-links-item .dashicons {
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: #444;
+}
+.printful-quick-links .printful-quick-links-item h4 {
+    text-decoration: none;
+    color: #444;
+    margin: 5px 0 0 0;
+}
+.printful-quick-links .printful-quick-links-item:hover {
+    cursor: pointer;
+}
+.printful-quick-links .printful-quick-links-item:hover .dashicons,
+.printful-quick-links .printful-quick-links-item:hover h4 {
+    color: #0D72B2;
+}
+
+.printful-error {
+    margin-top: 20px;
+}
+
+.printful-notice {
+    background: #fff;
+    border-left: 4px solid #dc3232;
+    padding: 1px 12px;
+    margin: 10px 0 20px 0;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    text-align: left;
+}
+.printful-notice li {
+    font-weight: bold;
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.block-loader {
+    text-align: center;
+    padding: 20px 0;
+    line-height: 20px;
+}
+.block-loader .message {
+    padding-left: 10px;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 16px;
+}
+.block-loader .loader {
+    vertical-align: top;
+}
+
+#wpfooter::after {
+    box-sizing: border-box;
+    content: "";
+    width: 64px;
+    left: 50%;
+    margin-left: -32px;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    background: url("../images/printful-logo-footer.png") no-repeat bottom center;
+    background-size: 64px;
+}

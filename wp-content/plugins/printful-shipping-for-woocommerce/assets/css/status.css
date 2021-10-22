@@ -1,0 +1,21 @@
+.pass {
+    font-weight: bold;
+    color: green;
+}
+.fail {
+    font-weight: bold;
+    color: red;
+}
+.warning {
+    font-weight: bold;
+    color: #cab827;
+}
+.printful-status .col-status {
+    width: 10%;
+}
+.printful-status .col-desc {
+    width: 57%;
+}
+.printful-status tbody tr:first-child td {
+    font-weight: bold;
+}

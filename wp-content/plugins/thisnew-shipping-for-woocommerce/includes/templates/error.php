@@ -1,0 +1,1 @@
+<p class="thisnew-error"><b><?php esc_html_e('Error:', 'thisnew'); ?></b> <?php echo wp_kses_post($error); ?></p>

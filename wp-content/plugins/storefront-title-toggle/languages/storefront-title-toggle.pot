@@ -1,0 +1,54 @@
+# Copyright (C) 2015 Storefront Title Toggle
+# This file is distributed under the same license as the Storefront Title Toggle package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Storefront Title Toggle 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/storefront-title-toggle\n"
+"POT-Creation-Date: 2015-01-27 14:35:53+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: storefront-title-toggle.php:129
+#: storefront-title-toggle.php:138
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: storefront-title-toggle.php:148
+msgid "Support"
+msgstr ""
+
+#: storefront-title-toggle.php:149
+msgid "Docs"
+msgstr ""
+
+#: storefront-title-toggle.php:168
+msgid "Sorry, you can&rsquo;t activate this plugin unless you have installed the Storefront theme."
+msgstr ""
+
+#: storefront-title-toggle.php:178
+msgid "%sThanks for installing the Storefront Title Toggle extension. To get started, visit the %sCustomizer%s.%s %sOpen the Customizer%s"
+msgstr ""
+
+#: storefront-title-toggle.php:245
+msgid "Title and Meta Toggle"
+msgstr ""
+
+#: storefront-title-toggle.php:266
+msgid "Hide Title"
+msgstr ""
+
+#: storefront-title-toggle.php:267
+msgid "This checkbox will hide the title from view."
+msgstr ""
+
+#: storefront-title-toggle.php:271
+msgid "Hide Post Meta"
+msgstr ""
+
+#: storefront-title-toggle.php:272
+msgid "This checkbox will hide the post meta (categories and tags) from view."
+msgstr ""

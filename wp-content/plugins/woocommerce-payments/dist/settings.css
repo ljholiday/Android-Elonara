@@ -1,0 +1,6 @@
+.chip{font-size:14px;font-size:.875rem;display:inline-block;padding:0.25rem 0.75rem;border-radius:1rem;white-space:nowrap}.chip.chip-primary{background:#c5d9ed;color:#043959}.chip.chip-light{background:#dcdcde;color:#2c3338}.chip.chip-alert{background:#facfd2;color:#691c1c}.chip.chip-warning{background:#f5e6b3;color:#9d6e00}.chip.is-compact{padding:0.06rem 0.65rem 0.1rem}
+
+.account-status__info{margin-left:1.6rem}.account-status__info .account-status__info__green{fill:#008a20;color:#008a20}.account-status__info .account-status__info__red{fill:#b32d2e;color:#b32d2e}.account-status__info svg{margin:0 0.2rem;position:relative;top:4px}.account-status__desc{margin-top:1rem;font-style:italic}
+
+.progressbar{display:flex;max-width:600px}.progressbar .progressbar__container{flex-grow:1;display:flex;flex-flow:wrap;margin:8px 8px 8px 0;background-color:#fff;height:32px;border:1px #191e23 solid;border-radius:4px}.progressbar .progressbar__inner{background-color:#007CBA;display:inline-flex;flex-direction:row-reverse;height:100%}.progressbar .progressbar__outer-progress-label{align-self:center;margin:4px}.progressbar .progressbar__inner-progress-label{color:#fff;align-self:center;margin:4px}.progressbar .progressbar__total-label{align-self:center}
+

@@ -1,0 +1,46 @@
+.printful-setting-group {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.printful-setting-group .input-text {
+    width: 400px;
+}
+
+.printful-setting-group .checkbox-group-item i {
+    color: #777;
+}
+
+.printful-submit .woocommerce-save-button {
+    float: left;
+}
+
+.printful-submit .loader-wrap {
+    display: inline-block;
+    padding: 4px 10px;
+    float: left;
+}
+
+.printful-submit .loader-wrap .loader {
+    display: none;
+    float: left;
+}
+
+.printful-submit .loader-wrap .dashicons {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.printful-submit .loader-wrap .pass,
+.printful-submit .loader-wrap .fail {
+    display: none;
+    float: left;
+    line-height: 24px;
+}
+
+.printful-setting-group .carrier-type {
+    font-weight: bold;
+    padding: 20px 0;
+    display: block;
+}

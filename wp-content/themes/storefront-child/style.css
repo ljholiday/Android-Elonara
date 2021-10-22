@@ -1,0 +1,120 @@
+/*
+ Theme Name:   Storefront Child
+ Template:     storefront
+ Text Domain:  storefront-child
+ Version: 1.3
+*/
+
+/* basics */
+body {
+   // font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', serif;
+}
+/* end basics */
+
+/* make shop page full width */
+.woocommerce .content-area {
+      width: 100%;
+ }
+ .woocommerce .widget-area {
+      display: none;
+ }
+/* end make shop page full width */
+
+/* Adjust the logo size */
+@media screen and (min-width: 768px) {
+	.site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link, .site-header .custom-logo-link {
+    width: 150%; /* Adjust this percentage up or down to make the logo larger or smaller. */
+	}
+}
+
+/* make the lost space below the header smaller */
+#page .site-header {
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 0em;
+ }
+
+/* Adjust footer height */
+.footer-widgets {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.site-info {
+    padding-top: 1em;
+    padding-bottom: 1em;
+} 
+
+.site-footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/* end adjust footer */
+
+/* gets rid of the tags list on the product pages */
+.tagged_as {
+display: none !important;
+}
+
+.product_meta .tagged_as {
+display:none;
+}
+
+/* product image */
+.woocommerce li.product {
+
+    background-color: transparent;
+}
+
+.entry-featured,.woocommerce li.product {
+    box-shadow: none !Important;
+    border: none !important;
+}
+/* end product image */
+
+
+/* align images in the pitch deck team slide */
+.center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* this is for the page "ljholiday" and a couple others */
+body.page.page-id-23946,
+body.page.page-id-20869,
+body.page.page-id-24097 {
+	background-color: #fff8e2;
+}
+.ljholiday {
+    background-color: #fffae6;
+    border-radius: 20px;
+}
+
+/* For categories */
+body.term-jackets {
+    background-color: #ffeedd;
+}
+/* end categories */
+
+/* product image. I'm not sure the yellow background color is doing anything. The transparent is. */
+.entry-featured {
+    background-color: yellow;
+}
+
+.woocommerce li.product {
+
+    background-color: transparent;
+}
+
+.entry-featured,.woocommerce li.product {
+    box-shadow: none !Important;
+    border: none !important;
+} 
+/* end product image */

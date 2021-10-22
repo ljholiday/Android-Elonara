@@ -1,0 +1,19 @@
+.thisnew-toolbar .thisnew-toolbar-issues {
+    background-color: #d54e21;
+    display: inline-block;
+    padding: 0 5px !important;
+    border-radius: 10px !important;
+    line-height: 16px !important;
+    font-size: 11px !important;
+    color: #fff !important;
+}
+.thisnew-toolbar:hover .thisnew-toolbar-issues,
+.thisnew-toolbar:active .thisnew-toolbar-issues,
+.thisnew-toolbar.hover .thisnew-toolbar-issues
+{
+    color: #fff !important;
+}
+
+/* #adminmenu .toplevel_page_thisnew-dashboard  img {
+    width: 28px;
+} */

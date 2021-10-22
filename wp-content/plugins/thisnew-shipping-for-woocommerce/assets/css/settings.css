@@ -1,0 +1,46 @@
+.thisnew-setting-group {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.thisnew-setting-group .input-text {
+    width: 400px;
+}
+
+.thisnew-setting-group .checkbox-group-item i {
+    color: #777;
+}
+
+.thisnew-submit .woocommerce-save-button {
+    float: left;
+}
+
+.thisnew-submit .loader-wrap {
+    display: inline-block;
+    padding: 4px 10px;
+    float: left;
+}
+
+.thisnew-submit .loader-wrap .loader {
+    display: none;
+    float: left;
+}
+
+.thisnew-submit .loader-wrap .dashicons {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.thisnew-submit .loader-wrap .pass,
+.thisnew-submit .loader-wrap .fail {
+    display: none;
+    float: left;
+    line-height: 24px;
+}
+
+.thisnew-setting-group .carrier-type {
+    font-weight: bold;
+    padding: 20px 0;
+    display: block;
+}

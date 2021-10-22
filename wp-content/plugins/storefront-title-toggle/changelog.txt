@@ -1,0 +1,18 @@
+
+1.2.4
+* fixed homepage title not hiding
+
+1.2.1
+* fixed - only show "hide meta" checkbox option for posts
+* fixed margin bug when hiding product title
+
+1.2.0
+* added language support
+* updated plugin to use storefront extension boilerplate
+
+1.1.0
+* fixed bug - cannot hide shop page title
+* fixed bug - cannot hide product page title
+
+1.0.0
+* Initial release
