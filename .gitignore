@@ -21,3 +21,7 @@
 # *.log
 # *.sql
 # *.sqlite
+
+# Lonn says ignore the images
+*.jpg
+*.png
